@@ -4,70 +4,92 @@
     <style>
 body{
   font-family: sans-serif;
+  background-color:#EEEEEE;
+}
+h1{
+  text-align:center;
+  padding:50px;
 }
 .card1 {
     margin: auto;
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    border: 1px solid #44d4ea;
     border-radius: 10px;
-    text-align: center;
     cursor: pointer;
     background-color:#9af4e4;
   }
   .card2 {
-  margin: auto;
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    margin: auto;
+    border: 1px solid #ff9400;
     border-radius: 10px;
-    text-align: center;
     cursor: pointer;
     background-color:#efc68d;
   }
   .card3 {
-  margin: auto;
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    margin: auto;
+    border: 1px solid #0065ff;
     border-radius: 10px;
-    text-align: center;
     cursor: pointer;
     background-color:#a1c1f1;
   }
 
-.content {
-  padding: 15px;
-}
+  .id1{
+    margin:0px 75px;
+    border-radius:3px;
+    background-color:#44d4ea;
+  }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 10px;
-}
-img{
-  height: 200px;
-  width: 200px;
-}
+
+  .id2{
+    margin:0px 75px;
+    border-radius:3px;
+    background-color:#ff9400;
+  }
+
+
+  .id3{
+    margin:0px 75px;
+    border-radius:3px;
+    background-color:#0065ff;
+  }
+
+  .content {
+    text-align: center;
+    padding: 20px 0px;
+  }	
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+  }
+  img{
+    width: 200;
+  }
     </style>
   </head>
   <body>
-      <h1 style="text-align:center;padding:5%">Choose your Starter Pokemon!</h1>
+      <h1>Choose your Starter Pokemon!</h1>
       <div class="grid-container">      
         <div class="card1">
          <div class="content">
-           <h4>#001</h4>
+           <h4 class="id1">#001</h4>
            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="Bulbasaur">
            <h4>Bulbasaur</h4>
         </div>
         </div>
         <div class="card2">
             <div class="content">
-                <h4>#004</h4>
+              <h4 class="id2">#004</h4>
               <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png" alt="Charmander">
               <h4>Charmander</h4>
         </div>
         </div>
         <div class="card3">
            <div class="content">
-              <h4>#007</h4>
+              <h4 class="id3">#007</h4>
               <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png" alt="Squirtle">
-             <h4>Squirtle</h4>
+              <h4>Squirtle</h4>
         </div>
       </div>
       </div>
