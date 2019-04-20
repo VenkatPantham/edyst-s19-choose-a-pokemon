@@ -4,8 +4,9 @@ app=Flask(__name__)                                                 # Initialisi
 
 @app.route('/api/pokemon')
 def pokemon():
-    pokemon=['bulbasaur','charmander','squirtle']                   # Storing data into a variable
-    return jsonify(pokemon)                                         # Returning required JSON Data
+    data={}
+    data['pokemon']=['bulbasaur','charmander','squirtle']                   # Storing data into a variable
+    return jsonify(data)                                         # Returning required JSON Data
 
 if(__name__=='__main__'):
     app.run(host='localhost',port=8006)
