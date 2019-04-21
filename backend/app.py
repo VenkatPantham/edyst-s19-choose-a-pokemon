@@ -1,4 +1,4 @@
-from flask import Flask,jsonify,render_template
+from flask import Flask,json,render_template
 
 app=Flask(__name__)                                                 # Initialising Flask
 
@@ -10,7 +10,7 @@ def page_not_found(e):
 def pokemon():
     data={}
     data['pokemon']=["bulbasaur","charmander","squirtle"]           # Storing data into a variable
-    return jsonify(data)                                            # Returning required JSON Data
+    return json.dumps(data)                                            # Returning required JSON Data
 
 if(__name__=='__main__'):
     app.run(host='localhost',port=8006)
