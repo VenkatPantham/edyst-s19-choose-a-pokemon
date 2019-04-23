@@ -16,3 +16,9 @@ Images folder consists of three images
     Bulbasaur
     Charmandar
     Squirtle
+
+[Desktop Screenshot](static/images/desktopscreenshot.png)
+
+[Mobile Screenshot](static/images/mobilescreenshot.png)
+
+[Link](https://venkatpantham.github.io/edyst-s19-choose-a-pokemon/frontend/index.html)
