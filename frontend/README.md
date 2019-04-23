@@ -3,7 +3,7 @@
 This folder consists of index.html and static folder
 
 index.html
-    This file is used to display three pokemon cards with id,image and namAe
+    This file is used to display three pokemon cards with id,image and name
 
 Static folder consists of images and css folders
 
