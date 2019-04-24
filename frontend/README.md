@@ -17,7 +17,7 @@ Images folder consists of three images
     Charmandar
     Squirtle
 
-[Desktop Screenshot](static/images/desktopscreenshot.png)
+![Screenshot](static/images/desktopscreenshot.png)
 
 [Mobile Screenshot](static/images/mobilescreenshot.png)
 
