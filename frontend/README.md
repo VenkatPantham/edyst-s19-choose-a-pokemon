@@ -17,7 +17,7 @@ Images folder consists of three images
     Charmandar
     Squirtle
 
-[Click this Link to open](https://venkatpantham.github.io/edyst-s19-choose-a-pokemon/frontend/index.html)
+[Click this Link to Open](https://venkatpantham.github.io/edyst-s19-choose-a-pokemon/frontend/index.html)
 
 Desktop Screenshot
 
