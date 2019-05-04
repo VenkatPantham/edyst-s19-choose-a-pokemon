@@ -11,13 +11,18 @@
   @media only screen and (min-width:481px){       /* For Desktop and Laptops */
     .flex-container{
       display: flex;
+      margin: auto;
+      height: 450px;
+      max-width: 900px;
+      background-color: #EEEEEE;
+      border-radius: 10px;
       justify-content:center;
     }
   }
   
   body{
     font-family: sans-serif;
-    background-color:#EEEEEE;
+    background-color:white;
   }
   h1{
     text-align:center;
@@ -26,7 +31,7 @@
   .card1 {
       margin: auto;
       text-align: center;
-      padding: 30px 10px;
+      padding: 20px 0px;
       border: 1px solid #44d4ea;
       border-radius: 10px;
       cursor: pointer;
@@ -35,7 +40,7 @@
     .card2 {
       margin: auto;
       text-align: center;
-      padding: 30px 10px;
+      padding: 20px 0px;
       border: 1px solid #ff9400;
       border-radius: 10px;
       cursor: pointer;
@@ -43,8 +48,8 @@
     }
     .card3 {
       margin: auto;
+      padding: 20px 0px;
       text-align: center;
-      padding: 30px 10px;
       border: 1px solid #0065ff;
       border-radius: 10px;
       cursor: pointer;
@@ -52,23 +57,22 @@
     }
   
     .id1{
-      padding: 2px 0px;
-      margin:0px 75px;
+      padding: 3px;
+      margin: 0px 150px 0px 20px;
       border-radius:3px;
       background-color:#44d4ea;
     }
-  
-  
+
     .id2{
-      padding: 2px 0px;
-      margin:0px 75px;
+      padding: 3px;
+      margin: 0px 150px 0px 20px;
       border-radius:3px;
       background-color:#ff9400;
     }
-  
+
     .id3{
-      padding: 2px 0px;
-      margin:0px 75px;
+      padding: 3px;
+      margin: 0px 150px 0px 20px;
       border-radius:3px;
       background-color:#0065ff;
     }
